@@ -193,7 +193,7 @@ const Contact = () => {
                       <Mail className="h-6 w-6 text-tree-s-blue mr-3 mt-1" />
                       <div>
                         <h4 className="font-semibold text-gray-900">Email</h4>
-                        <p className="text-gray-600">info@tree-s.co.mz</p>
+                        <p className="text-gray-600">Geral@treesconsulting.co.mz</p>
                       </div>
                     </div>
                     
@@ -201,20 +201,20 @@ const Contact = () => {
                       <Phone className="h-6 w-6 text-tree-s-blue mr-3 mt-1" />
                       <div>
                         <h4 className="font-semibold text-gray-900">Telefone</h4>
-                        <p className="text-gray-600">+258 84 123 4567 / +258 87 123 4567</p>
+                        <p className="text-gray-600">+258 869397679 / 843613062</p>
                       </div>
                     </div>
                   </div>
 
                   <div className="mt-8 pt-6 border-t border-gray-200">
                     <div className="flex items-center">
-                      <div className="w-12 h-12 bg-tree-s-blue rounded-lg flex items-center justify-center mr-4">
-                        <span className="text-white font-bold text-lg">TS</span>
-                      </div>
+                      <img 
+                        src="/Prancheta2_1.png" 
+                        alt="3S Tree Consulting" 
+                        className="h-12 w-auto mr-4"
+                      />
                       <div>
-                        <div className="text-tree-s-blue font-bold text-lg">Tree S</div>
-                        <div className="text-gray-600 text-sm">CONSULTING</div>
-                        <div className="text-gray-500 text-sm">www.tree-s.co.mz</div>
+                        <div className="text-gray-500 text-sm">www.treesconsulting.co.mz</div>
                       </div>
                     </div>
                   </div>

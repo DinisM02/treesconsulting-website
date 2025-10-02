@@ -48,13 +48,11 @@ const Footer = () => {
             {/* Logo and Description */}
             <div className="md:col-span-2">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mr-4">
-                  <span className="text-tree-s-ocean font-bold text-lg">TS</span>
-                </div>
-                <div>
-                  <div className="text-white font-bold text-lg">Tree S</div>
-                  <div className="text-blue-200 text-sm">CONSULTING</div>
-                </div>
+                <img 
+                  src="/Prancheta2_4.png" 
+                  alt="3S Tree Consulting" 
+                  className="h-12 w-auto"
+                />
               </div>
               <p className="text-blue-100 mb-4 leading-relaxed">
                 A TREE-S CONSULTING é uma empresa de consultoria dedicada a apoiar organizações 
@@ -113,13 +111,13 @@ const Footer = () => {
                 <div className="flex items-start">
                   <Phone className="h-5 w-5 text-blue-200 mr-2 mt-0.5" />
                   <div className="text-blue-100 text-sm">
-                    <div>+258 84 123 4567</div>
-                    <div>+258 87 123 4567</div>
+                    <div>+258 869397679</div>
+                    <div>+258 843613062</div>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <Mail className="h-5 w-5 text-blue-200 mr-2 mt-0.5" />
-                  <span className="text-blue-100 text-sm">info@tree-s.co.mz</span>
+                  <span className="text-blue-100 text-sm">Geral@treesconsulting.co.mz</span>
                 </div>
               </div>
             </div>

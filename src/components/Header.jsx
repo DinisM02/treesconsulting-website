@@ -21,12 +21,12 @@ const Header = () => {
               </div>
               <div className="flex items-center">
                 <Mail className="h-4 w-4 mr-1 text-tree-s-blue" />
-                <span>info@tree-s.co.mz</span>
+                <span>Geral@treesconsulting.co.mz</span>
               </div>
             </div>
             <div className="flex items-center">
               <Phone className="h-4 w-4 mr-1 text-tree-s-blue" />
-              <span>+258 84 123 4567 / +258 87 123 4567</span>
+              <span>+258 869397679 / 843613062</span>
             </div>
           </div>
         </div>
@@ -37,13 +37,11 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <div className="w-12 h-12 bg-tree-s-blue rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">TS</span>
-            </div>
-            <div className="ml-3">
-              <div className="text-tree-s-blue font-bold text-xl">Tree S</div>
-              <div className="text-tree-s-dark text-sm">CONSULTING</div>
-            </div>
+            <img 
+              src="/Prancheta2_1.png" 
+              alt="3S Tree Consulting" 
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}

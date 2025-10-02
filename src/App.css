@@ -187,3 +187,31 @@
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 25, 68, 0.3);
 }
+
+/* Fix for white background buttons - ensure text is visible */
+.bg-white.text-tree-s-navy {
+  color: var(--tree-s-navy) !important;
+  font-weight: 600;
+  text-shadow: none;
+}
+
+.bg-white.text-tree-s-ocean {
+  color: var(--tree-s-ocean) !important;
+  font-weight: 600;
+  text-shadow: none;
+}
+
+/* Ensure button text is always visible */
+button {
+  font-weight: 600;
+}
+
+button.bg-white {
+  color: var(--tree-s-navy) !important;
+  border: 2px solid var(--tree-s-navy);
+}
+
+button.bg-white:hover {
+  background-color: #f8f9fa !important;
+  color: var(--tree-s-navy) !important;
+}
