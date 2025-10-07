@@ -13,20 +13,20 @@ const Header = () => {
       {/* Top bar */}
       <div className="bg-tree-s-fundamental border-b border-tree-s-mist">
         <div className="container mx-auto px-4 py-2">
-          <div className="flex flex-col sm:flex-row justify-between items-center text-sm text-tree-s-dark">
-            <div className="flex items-center space-x-4 mb-2 sm:mb-0">
+          <div className="flex flex-col lg:flex-row justify-between items-center text-xs sm:text-sm text-tree-s-dark">
+            <div className="flex flex-col sm:flex-row items-center space-y-1 sm:space-y-0 sm:space-x-4 mb-2 lg:mb-0">
               <div className="flex items-center">
-                <MapPin className="h-4 w-4 mr-1 text-tree-s-blue" />
-                <span>Maputo, Moçambique</span>
+                <MapPin className="h-3 w-3 sm:h-4 sm:w-4 mr-1 text-tree-s-blue" />
+                <span className="text-center sm:text-left">Maputo, Moçambique</span>
               </div>
               <div className="flex items-center">
-                <Mail className="h-4 w-4 mr-1 text-tree-s-blue" />
-                <span>Geral@treesconsulting.co.mz</span>
+                <Mail className="h-3 w-3 sm:h-4 sm:w-4 mr-1 text-tree-s-blue" />
+                <span className="break-all sm:break-normal">Geral@treesconsulting.co.mz</span>
               </div>
             </div>
             <div className="flex items-center">
-              <Phone className="h-4 w-4 mr-1 text-tree-s-blue" />
-              <span>+258 869397679 / 843613062</span>
+              <Phone className="h-3 w-3 sm:h-4 sm:w-4 mr-1 text-tree-s-blue" />
+              <span className="text-center">+258 869397679 / 843613062</span>
             </div>
           </div>
         </div>
@@ -40,12 +40,12 @@ const Header = () => {
             <img 
               src="/Prancheta2_1.png" 
               alt="3S Tree Consulting" 
-              className="h-12 w-auto"
+              className="h-8 sm:h-10 md:h-12 w-auto"
             />
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden lg:flex items-center space-x-6 xl:space-x-8">
             <Link 
               to="/"
               className={`text-gray-700 hover:text-tree-s-blue transition-colors duration-200 font-medium ${
@@ -89,7 +89,7 @@ const Header = () => {
           {/* Mobile menu button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200"
+            className="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200"
           >
             {isMenuOpen ? (
               <X className="h-6 w-6 text-gray-600" />
@@ -101,7 +101,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="md:hidden mt-4 pb-4 border-t border-gray-200 pt-4">
+          <nav className="lg:hidden mt-4 pb-4 border-t border-gray-200 pt-4">
             <div className="flex flex-col space-y-4">
               <Link 
                 to="/"

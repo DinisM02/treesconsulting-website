@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-96 bg-tree-s-navy text-white">
+      <section className="relative h-64 sm:h-80 lg:h-96 bg-tree-s-navy text-white">
         <div 
           className="h-full bg-cover bg-center relative"
           style={{
@@ -17,7 +17,7 @@ const About = () => {
               <nav className="text-blue-200 mb-4">
                 <Link to="/" className="hover:text-white">Início</Link> / Sobre Nós
               </nav>
-              <h1 className="text-5xl font-bold">Sobre Nós</h1>
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">Sobre Nós</h1>
             </div>
           </div>
         </div>
