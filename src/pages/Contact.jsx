@@ -249,8 +249,8 @@ const Contact = () => {
             a sua empresa a alcançar a excelência operacional.
           </p>
           <Link to="/orcamento">
-            <Button className="bg-white text-tree-s-navy hover:bg-gray-100 px-8 py-3 text-lg font-semibold">
-              Solicitar Orçamento
+            <Button className="bg-white text-gray-900 hover:bg-gray-100 px-8 py-3 text-lg font-semibold border border-gray-300">
+            Solicitar Orçamento
             </Button>
           </Link>
         </div>
