@@ -48,11 +48,13 @@ const Footer = () => {
             {/* Logo and Description */}
             <div className="md:col-span-2">
               <div className="flex items-center mb-4">
-                <img 
-                  src="/Prancheta2_4.png" 
-                  alt="3S Tree Consulting" 
-                  className="h-12 w-auto"
-                />
+                <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mr-4">
+                  <span className="text-tree-s-ocean font-bold text-lg">TS</span>
+                </div>
+                <div>
+                  <div className="text-white font-bold text-lg">Tree S</div>
+                  <div className="text-blue-200 text-sm">CONSULTING</div>
+                </div>
               </div>
               <p className="text-blue-100 mb-4 leading-relaxed">
                 A TREE-S CONSULTING é uma empresa de consultoria dedicada a apoiar organizações 

@@ -43,7 +43,7 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Slider */}
-      <section className="relative h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden">
+      <section className="relative h-[600px] overflow-hidden">
         {slides.map((slide, index) => (
           <div
             key={index}
@@ -59,17 +59,17 @@ const Home = () => {
             >
               <div className="container mx-auto px-4 h-full flex items-center">
                 <div className="max-w-2xl text-white">
-                  <p className="text-sm sm:text-base lg:text-lg mb-2 text-blue-200">{slide.subtitle}</p>
-                  <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 leading-tight">{slide.title}</h1>
-                  <p className="text-sm sm:text-base lg:text-xl mb-6 sm:mb-8 leading-relaxed">{slide.description}</p>
-                  <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                    <Link to="/servicos" className="w-full sm:w-auto">
-                      <Button className="bg-tree-s-blue hover:bg-tree-s-hover text-white px-6 sm:px-8 py-3 text-base sm:text-lg font-semibold w-full sm:w-auto">
+                  <p className="text-lg mb-2 text-blue-200">{slide.subtitle}</p>
+                  <h1 className="text-5xl font-bold mb-6">{slide.title}</h1>
+                  <p className="text-xl mb-8 leading-relaxed">{slide.description}</p>
+                  <div className="flex flex-col sm:flex-row gap-4">
+                    <Link to="/servicos">
+                      <Button className="bg-tree-s-blue hover:bg-tree-s-hover text-white px-8 py-3 text-lg font-semibold">
                         Ver Mais
                       </Button>
                     </Link>
-                    <Link to="/orcamento" className="w-full sm:w-auto">
-                      <Button variant="outline" className="border-white text-white hover:bg-white hover:text-tree-s-navy px-6 sm:px-8 py-3 text-base sm:text-lg font-semibold w-full sm:w-auto">
+                    <Link to="/orcamento">
+                      <Button variant="outline" className="border-white text-white hover:bg-white hover:text-tree-s-navy px-8 py-3 text-lg font-semibold">
                         Orçamento
                       </Button>
                     </Link>
@@ -109,9 +109,9 @@ const Home = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-8 sm:py-12 lg:py-16 bg-tree-s-fundamental">
+      <section className="py-16 bg-tree-s-fundamental">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="w-16 h-16 bg-tree-s-blue rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="h-8 w-8 text-white" />
@@ -147,15 +147,15 @@ const Home = () => {
       {/* Services Section */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-8 sm:mb-12">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-tree-s-navy mb-4">Nossos Serviços</h2>
-            <p className="text-base sm:text-lg lg:text-xl text-tree-s-dark max-w-3xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-tree-s-navy mb-4">Nossos Serviços</h2>
+            <p className="text-xl text-tree-s-dark max-w-3xl mx-auto">
               Oferecemos soluções completas em consultoria, auditoria, formação e estudos 
               ambientais para ajudar sua empresa a alcançar a excelência operacional.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-2xl font-bold text-tree-s-navy mb-4">Consultoria</h3>
               <p className="text-tree-s-dark mb-6">
