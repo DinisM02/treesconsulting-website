@@ -69,7 +69,7 @@ const Home = () => {
                       </Button>
                     </Link>
                     <Link to="/orcamento">
-                      <Button variant="outline" className="border-white text-white hover:bg-white hover:text-tree-s-navy px-8 py-3 text-lg font-semibold">
+                      <Button variant="outline" className="border-white text-white hover:bg-tree-s-hover hover:text-tree-s-navy px-8 py-3 text-lg font-semibold">
                         Orçamento
                       </Button>
                     </Link>
